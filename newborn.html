@@ -1,0 +1,119 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<title>Igniters Photolio</title>
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/51/fe/9e/51fe9e8d3b63808b192d5392d68f5637.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  p {font-size:18px}
+  </style>
+<body>
+        <!-- Header -->
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:grey" style="font-family:sans-serif"><b>Newborn Photography</b></h1>
+  <p style="color:grey" style="font-family:sans-serif"><i>Taking an image,freezing a moment,reveals how rich reality truly is.</i></p>
+    <!-- Photo Grid -->
+    <nav>
+    <a href="javascript:void(0)"></a>
+<div class="w3-row-padding " style="margin-bottom:128px">
+  <div class="w3-half">
+    <img src="https://images.pexels.com/photos/1556706/pexels-photo-1556706.jpeg?cs=srgb&dl=pexels-daniel-reche-1556706.jpg&fm=jpg" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.pexels.com/photos/1556706/pexels-photo-1556706.jpeg?cs=srgb&dl=pexels-daniel-reche-1556706.jpg&fm=jpg'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.pexels.com/photos/1556706/pexels-photo-1556706.jpeg?cs=srgb&dl=pexels-daniel-reche-1556706.jpg&fm=jpg'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1610122748280-d0ae76b10750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGJhYnl8ZW58MHx8MHx8&w=1000&q=80" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1610122748280-d0ae76b10750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGJhYnl8ZW58MHx8MHx8&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1610122748280-d0ae76b10750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGJhYnl8ZW58MHx8MHx8&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1581841899040-8b5e38bae033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwYmFieXxlbnwwfHwwfHw%3D&w=1000&q=80" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1581841899040-8b5e38bae033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwYmFieXxlbnwwfHwwfHw%3D&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1581841899040-8b5e38bae033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwYmFieXxlbnwwfHwwfHw%3D&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&w=1000&q=80" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&w=1000&q=80'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://media.istockphoto.com/photos/portrait-of-african-baby-toddler-smiling-sitting-on-bed-indoor-picture-id1311426758?b=1&k=20&m=1311426758&s=170667a&w=0&h=mFGdHj1PELUVWfSTMkRyfYXOpAlXZMALkPmYGbD7rdc=" style="width:100%">
+    <a href="#" onclick="PrintImage('https://media.istockphoto.com/photos/portrait-of-african-baby-toddler-smiling-sitting-on-bed-indoor-picture-id1311426758?b=1&k=20&m=1311426758&s=170667a&w=0&h=mFGdHj1PELUVWfSTMkRyfYXOpAlXZMALkPmYGbD7rdc='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://media.istockphoto.com/photos/portrait-of-african-baby-toddler-smiling-sitting-on-bed-indoor-picture-id1311426758?b=1&k=20&m=1311426758&s=170667a&w=0&h=mFGdHj1PELUVWfSTMkRyfYXOpAlXZMALkPmYGbD7rdc='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://media.istockphoto.com/photos/little-baby-boy-with-knitted-hat-in-a-basket-happily-smiling-and-at-picture-id1320837181?b=1&k=20&m=1320837181&s=170667a&w=0&h=rx3UZuyHkkCe5MxNO2ygAvgtoqriXivumFqCnNPOc7k=" style="width:100%">
+    <a href="#" onclick="PrintImage('https://media.istockphoto.com/photos/little-baby-boy-with-knitted-hat-in-a-basket-happily-smiling-and-at-picture-id1320837181?b=1&k=20&m=1320837181&s=170667a&w=0&h=rx3UZuyHkkCe5MxNO2ygAvgtoqriXivumFqCnNPOc7k='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://media.istockphoto.com/photos/little-baby-boy-with-knitted-hat-in-a-basket-happily-smiling-and-at-picture-id1320837181?b=1&k=20&m=1320837181&s=170667a&w=0&h=rx3UZuyHkkCe5MxNO2ygAvgtoqriXivumFqCnNPOc7k='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.squarespace-cdn.com/content/v1/5818a8016b8f5bc983ff1c81/1635362439686-9SR03XNXUM04NTAU3CXY/IMG_3158.jpeg?format=500w" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.squarespace-cdn.com/content/v1/5818a8016b8f5bc983ff1c81/1635362439686-9SR03XNXUM04NTAU3CXY/IMG_3158.jpeg?format=500w'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.squarespace-cdn.com/content/v1/5818a8016b8f5bc983ff1c81/1635362439686-9SR03XNXUM04NTAU3CXY/IMG_3158.jpeg?format=500w'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+  </div>
+
+  <div class="w3-half">
+    <img src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1583710457367-47de0ea21fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1583710457367-47de0ea21fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1583710457367-47de0ea21fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV3Ym9ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1524492188898-7e0f39d0ec03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1524492188898-7e0f39d0ec03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1524492188898-7e0f39d0ec03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://media.istockphoto.com/photos/father-holding-baby-daughter-and-kissing-picture-id1386517976?b=1&k=20&m=1386517976&s=170667a&w=0&h=01OSIrDDCGVhkhJesyZ4Lmpgk8dYb7ltrw9gLohQiTc=" style="width:100%">
+    <a href="#" onclick="PrintImage('https://media.istockphoto.com/photos/father-holding-baby-daughter-and-kissing-picture-id1386517976?b=1&k=20&m=1386517976&s=170667a&w=0&h=01OSIrDDCGVhkhJesyZ4Lmpgk8dYb7ltrw9gLohQiTc='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://media.istockphoto.com/photos/father-holding-baby-daughter-and-kissing-picture-id1386517976?b=1&k=20&m=1386517976&s=170667a&w=0&h=01OSIrDDCGVhkhJesyZ4Lmpgk8dYb7ltrw9gLohQiTc='); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1629368337026-ff53d3975c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1629368337026-ff53d3975c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1629368337026-ff53d3975c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5ld2Jvcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+
+    <img src="https://images.unsplash.com/photo-1543467214-b247439848dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGN1dGUlMjBiYWJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" style="width:100%">
+    <a href="#" onclick="PrintImage('https://images.unsplash.com/photo-1543467214-b247439848dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGN1dGUlMjBiYWJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="printImage"><i class="fa fa-print w3-margin-right"></i>Print</button></a> 
+    <a href="#" onclick="DownloadImage('https://images.unsplash.com/photo-1543467214-b247439848dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGN1dGUlMjBiYWJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); return false;"><button  class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" id="downloadImage"><i class="fa fa-download w3-margin-right"></i>Download</button></a> 
+  </div>
+</div>
+    </nav>
+<!-- End Page Content -->
+</div>
+
+	<script>
+function ImagetoPrint(source) {
+    return "<html><head><script>function step1(){\n" +
+            "setTimeout('step2()', 10);}\n" +
+            "function step2(){window.print();window.close()}\n" +
+            "</scri" + "pt></head><body onload='step1()'>\n" +
+            "<img src='" + source + "' /></body></html>";
+}
+function PrintImage(source) {
+    Pagelink = "about:blank";
+    var pwa = window.open(Pagelink, "_new");
+    pwa.document.open();
+    pwa.document.write(ImagetoPrint(source));
+    pwa.document.close();
+}
+
+
+async function DownloadImage(imageSrc) {
+  const image = await fetch(imageSrc)
+  const imageBlog = await image.blob()
+  const imageURL = URL.createObjectURL(imageBlog)
+
+  const link = document.createElement('a')
+  link.href = imageURL
+  link.download = 'Newborn Photography'
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
+
+</script>
+</body>
+</html>
